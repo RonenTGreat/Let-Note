@@ -1,0 +1,3 @@
+# Note Taking -App
+
+In progress now...
