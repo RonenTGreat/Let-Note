@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let Note</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/3fa41704cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
     <script src="scripts.js" defer></script>
-</head>
-<body>
-    <h1>Ronen Hammond</h1>
-</body>
+  </head>
+  <body>
+    <div class="notes">
+      <div class="tools">
+        <button><i class="fas fa-edit"></i></button>
+        <button><i class="fas fa-trash-alt"></i></button>
+      </div>
+      <div class="main">
+        <textarea></textarea>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,10 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-*{
-    box-sizing: border-box;
+$accent: #AA00AA;
+
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  background-color: #ff7700;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc4242' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a32b2b' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d33a47' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b11327' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23db4e69' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b1113f' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23cd3773' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23b55073' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c3098b' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a1447c' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23af4caf' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23892689' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
+
+
+.notes{
+    background-color: #fff;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+
+    .tools{
+        background-color: $accent;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.5rem;
+
+        button{
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            font-size: 1.5rem;
+            margin-left: .5rem ;
+        }
+    }
+
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+
+    textarea{
+        outline: none;
+        font-family: inherit;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+}
+
