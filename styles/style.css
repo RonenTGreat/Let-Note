@@ -18,14 +18,28 @@ body {
   margin: 0;
 }
 
-.notes {
+.add {
+  background-color: #AA00AA;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: .5rem;
+  left: 1rem;
+}
+
+.note {
   background-color: #fff;
+  -webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 20px;
   height: 400px;
   width: 400px;
 }
 
-.notes .tools {
+.note .tools {
   background-color: #AA00AA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,31 +50,32 @@ body {
   padding: 0.5rem;
 }
 
-.notes .tools button {
+.note .tools button {
   background-color: transparent;
   color: #fff;
   border: none;
   font-size: 1.5rem;
   margin-left: .5rem;
+  cursor: pointer;
 }
 
-.notes .main {
-  background-color: #fff;
+.note .main {
+  background-color: #eee;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
-.notes textarea {
+.note textarea {
   outline: none;
   font-family: inherit;
   font-size: 1.2rem;
   border: none;
-  height: 100%;
+  height: 400px;
   width: 100%;
 }
 
-.notes .hidden {
+.note .hidden {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */

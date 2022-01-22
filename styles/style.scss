@@ -17,9 +17,22 @@ body {
   margin: 0;
 }
 
+.add{
+    background-color: $accent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: .5rem;
+    left: 1rem;
+}
 
-.notes{
+
+.note{
     background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba($color: #000000, $alpha: 0.1);
     margin: 20px;
     height: 400px;
     width: 400px;
@@ -36,14 +49,15 @@ body {
             border: none;
             font-size: 1.5rem;
             margin-left: .5rem ;
+            cursor: pointer;
         }
     }
 
     .main{
-        background-color: #fff;
+        background-color: #eee;
         overflow: hidden;
         width: 100%;
-        height: 100%;
+        height: 400px;
     }
 
     textarea{
@@ -51,7 +65,7 @@ body {
         font-family: inherit;
         font-size: 1.2rem;
         border: none;
-        height: 100%;
+        height: 400px;
         width: 100%;
     }
 
