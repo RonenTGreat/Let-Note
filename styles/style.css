@@ -60,6 +60,7 @@ body {
 }
 
 .note .main {
+  padding-left: 0.5rem;
   background-color: #eee;
   overflow: hidden;
   width: 100%;
@@ -67,6 +68,7 @@ body {
 }
 
 .note textarea {
+  padding-left: 0.5rem;
   outline: none;
   font-family: inherit;
   font-size: 1.2rem;
